@@ -1,0 +1,55 @@
+.nav-span{
+    text-align: left;
+    color: white;
+    font-size: 18px;
+    float: left;
+}
+.navigator-box{
+    background-color: black;
+    line-height: 36px;
+    position: relative;
+    height: 38px;
+}
+.login-content{
+    background: url(https://public-call.oss-cn-shanghai.aliyuncs.com/federation_search_images/login-person-bg.jpg);
+    position: absolute;
+    top: 38px;
+    display: flex;
+    bottom: 0;
+    width: 100%;
+}
+.login-body{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+.form-div{
+    text-align: center;
+    padding: 30px;
+    width: 600px;
+    background-color: white;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin: auto;
+}
+.wel-title{
+    font-size: 20px;
+}
+.control-box{
+    padding: 8px 0;
+
+}
+.control-input{
+    width: 278px;
+}
+.btn-box{
+    border-radius: 2px;
+}
+.login-btn{
+    background: #388ecb;
+    color: #fff;
+    text-align: center;
+    width: 278px;
+    margin: auto;
+}

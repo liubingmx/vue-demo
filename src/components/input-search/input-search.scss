@@ -1,0 +1,29 @@
+@import '../../styles/common.scss';
+@import '../../styles/colors.scss';
+$basePixel: 30;
+@function rem($size) {
+  @return $size / $basePixel * 2.1rem;
+}
+
+.inputSearch-wrap{
+  background-color: $white;
+  height: rem(60);
+  padding: rem(10) rem(20) rem(10) rem(60);
+  box-sizing: border-box;
+  background-color: $itemBodyBgColor;
+  overflow: hidden;
+  .inputSearch-input{
+    display: block;
+    font-size: rem(28);
+    height: rem(40);
+    line-height: rem(40);
+    padding: 0;
+    background-color: transparent;
+  }
+  .mintui-search{
+    float: left;
+    margin-left: rem(-40);
+    margin-top: rem(4);
+    color: $textColor9;
+  }
+}
